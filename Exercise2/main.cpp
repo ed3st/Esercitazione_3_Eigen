@@ -6,7 +6,7 @@
 using namespace std;
 using namespace Eigen;
 
-/*Calcolo dell'errore relativo tr due vettori in norma 2.*/
+/*Calcolo dell'errore relativo tra due vettori in norma 2.*/
 double relative_error(VectorXd y, VectorXd z) { 
 	double err = (z-y).norm()/y.norm();
 	return err;
